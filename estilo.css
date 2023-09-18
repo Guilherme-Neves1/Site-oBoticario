@@ -20,7 +20,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 #interface {
-    background-image: url('https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:low,w_1220/v1/banner/2023_09_05_10_34_18_2/de29090c-5a16-4d3a-a8e5-066259f2050b-billboard-2440x750-23c13-refil-cuidados-desk.jpg');
+    background-color: rgba(0,0,0,.2);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
