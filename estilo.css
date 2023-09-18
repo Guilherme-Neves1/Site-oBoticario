@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+    border: none;
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 1rem;
+}
+
+#interface {
+    background-image: url('https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:low,w_1220/v1/banner/2023_09_05_10_34_18_2/de29090c-5a16-4d3a-a8e5-066259f2050b-billboard-2440x750-23c13-refil-cuidados-desk.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+body {
+    background-color: #dddddd;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-top: 1.5rem;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.container-icon {
+    margin-right: 5rem;
+}
+
+.icone ion-icon {
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+ul li a:hover {
+    
+    text-transform: uppercase;
+    color: #00A470;
+    border-bottom: solid 1px;
+}
+
+hr{
+    border-bottom: solid 0.1px;
+    color: #00A470;
+    margin-top: 15px;
+}
+
+.container-title {
+    margin-left: 5rem;
+    margin-top: 8rem;
+
+}
+
+.container-title h1 {
+  color: yellow;
+  font-size: 4.8rem;
+}
+
+.container-title p {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 100;
+}
+
+.container-title button {
+    margin-top: 0.8rem;
+    background-color: #00A470;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container-title button:hover {
+   letter-spacing: 1px;
+   transition: 0.3s all;
+}
