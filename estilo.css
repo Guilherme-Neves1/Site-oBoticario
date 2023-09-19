@@ -31,7 +31,7 @@ html::-webkit-scrollbar-thumb{
 } /* DIV da página inteira */
 
 body {
-    background-color: #dddddd;
+    background-color: #fff;
     height: 100vh;
 }
 
@@ -96,7 +96,7 @@ hr.propa{
     border-bottom: solid 2px;
     color: rgb(33, 200, 206);
     margin-top: 323px;
-} /* Linha horizontal que delimita a área do Menu*/
+} /* Linha horizontal que delimita a área da propaganda*/
 
 .container-icon {
     display: flex;
@@ -146,7 +146,7 @@ hr.propa{
 
 .search-box:hover > .search-txt {
     width: 200px;
-    padding: 0 6px; /* O primeiro valor é vertical e o segundo horiozntal */
+    padding: 0 6px; /* O primeiro valor é vertical e o segundo horizontal */
 } /* Quando passar o mouse em cima do search-box, o search-txt será alterado para o estilo definido aqui */
 
 .container-icon span {
@@ -179,7 +179,7 @@ hr.propa{
     color: white;
 }
 
-.bg-propaganda h1{
+.bg-propaganda h1 {
     padding-left: 550px;
     padding-top: 5px;
     color: black;
@@ -195,6 +195,7 @@ hr.propa{
 .container-title h1 {
   color: rgb(95, 20, 237);
   font-size: 4.8rem;
+  text-shadow: 2px 2px 2px rgb(95, 20, 237);
 }
 
 .container-title p {
@@ -217,9 +218,17 @@ hr.propa{
 } /* Estilizando o botão da logo */
 
 .container-title button:hover {
-   letter-spacing: 5px;
+   letter-spacing: 0px;
    color: rgb(95, 20, 237);
+   box-shadow: 2px 2px 5px rgb(95, 20, 237);
 }  
+
+p.aproveite {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 25px;
+    text-shadow: none;
+}
 /* Fim da DIV dos textos e botão na propaganda */
 
 /* Conteúdo da Página*/
@@ -229,24 +238,52 @@ hr.propa{
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-#perfumes {
-    margin-top: 0px;
-    padding-top: 20px;
+ /* Background "PERFUMES" */
+.tPerfumes {
     display: flex;
     justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#perfumes {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 10px;
     font-size: 35px;
     font-family: 'Gayathri', sans-serif;
     font-weight: 200;
+    background-color: rgb(95, 20, 237);
+    border-radius: 360px;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
+#perfumes:hover {
+    width: 205px;
+    font-size: 34px;
+    letter-spacing: 0px;
+    box-shadow: 0px 0px 10px rgb(95, 20, 237);
+} /* Efeito "PERFUMES"*/
 
+/* Configuração de imagem, preço e legenda dos perfumes */
 figure.foto-legenda {
     display: block;
     text-align: justify;
     width: 250px;
     border: 0.1px solid rgb(33, 200, 206);
     box-shadow: 0px 2px 10px black;
+    cursor: pointer;
+    transition: .5s;
 }
+
+figure.foto-legenda:hover {
+   box-shadow: 0px 0px 10px rgb(33, 200, 206);
+} /* Efeito nos cards dos produtos */
 
 figcaption.legenda-perfume {
     display: block;
@@ -274,6 +311,8 @@ figcaption.legenda-perfume {
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 0px;
+    padding-bottom: 5px;
+
 }
 
 div#imagens-perfume {
@@ -288,5 +327,139 @@ img.perfumes-p1 {
     position: relative;
     width: 100%;
     height: 100%;
+    border-bottom: 0.1px solid rgba(0,0,0,.2);
+} /* Fim das configurações imagem, preço e legenda dos perfumes */
+
+    /* Rodapé */
+div.rodape {
+    border-top: 2px solid rgb(95, 20, 237);
+    width: 100%;
+    height: 130px;
+    background-color: rgba(33, 200, 206,1);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
 }
+
+header#rItens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+div.pagamento {
+    margin: 0px 0px 0px 0px;
+    padding-top: 20px;
+    width: 300px;
+    height: 130px;
+    cursor: pointer;
+}
+
+div.pagamento h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: black
+}
+
+div.pagamento img{
+    margin-top: 15px;
+    width: 100%;
+}
+
+div.seguranca {
+    margin: 0;
+    padding-top: 20px;
+    width: 300px;
+    height: 130px;
+    cursor: pointer;
+}
+
+div.seguranca h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: black;
+}
+
+div.seguranca img{
+    margin-top: 15px;
+    width: 100%;
+}
+
+div.loja {
+    margin: 0;
+    padding-top: 20px;
+    width: 300px;
+    height: 130px;
+    cursor: pointer;
+}
+
+div.loja h1{
+    display: flex;
+    text-align: justify;
+    font-size: 23px;
+    color: black;
+}
+
+div.redes {
+    margin: 0;
+    padding-top: 20px;
+    width: 300px;
+    height: 130px;
+}
+
+div.redes h1{
+    display: flex;
+    text-align: justify;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: black
+}
+
+div.redes span{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.facebook img{
+   width: 32px;
+   height: 32px;
+}
+
+span.facebook:hover {
+    transition: 0.2s;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 360px;
+}
+
+span.insta:hover {
+    transition: 0.2s;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 360px;
+}
+
+span.twitter:hover {
+    transition: 0.2s;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 360px;
+}
+
+span.youtube:hover {
+    transition: 0.2s;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 360px;
+}
+
+span.blog:hover {
+    transition: 0.2s;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 360px;
+    width: 70px;
+}
+
 
