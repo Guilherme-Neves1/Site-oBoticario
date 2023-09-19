@@ -7,82 +7,113 @@
     <link rel="stylesheet" href="https://guilherme-neves1.github.io/Site-oBoticario/estilo.css">
 
     <!-- FONTES -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Titillium+Web&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Gayathri:wght@400;700&family=Lato:wght@300;400;700&family=Titillium+Web:wght@300;400;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
+    <!-- Parte de cima -->
 <div id="interface">
-      <header id="cabecalho">
-        <div class="logo">
-            <img src="" alt="">
-        </div>
-
-            <ul class="links">
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Lançamentos</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Promoções</a></li>
-                <li><a href="#">Dicas</a></li>
-            </ul>
-            
-            <div class="container-icon">
-                <div class="search-box">
-                    <input type="text" class="search-txt" placeholder="Pesquisar">
-                    <a href="#" class="search-button">
-                    <span class="icone"><ion-icon name="search-outline"></ion-icon></span>
-                    </a>
-                </div>
-                <span class="icone"><ion-icon name="cart-outline"></ion-icon></span>
+    <div class="background-cima">
+<header id="cabecalho">
+    <div class="logo">
+        <img src="_imagens/logo.png" alt="Logo da oBoticário" id="oLogo">
+    </div>
+        <ul class="links">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Lançamentos</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Promoções</a></li>
+            <li><a href="#">Dicas</a></li>
+        </ul>
+        <div class="container-icon">
+            <div class="search-box">
+                <input type="text" class="search-txt" placeholder="O que você procura hoje?">
+                <a href="#" class="search-button">
+                <span class="icone" id="pIcone"><ion-icon name="search-outline"></ion-icon></span>
+                </a>
             </div>
-    </header>
-    <hr>
+                <span class="icone" id="cIcone"><ion-icon name="cart-outline"></ion-icon></span>
+        </div>
+</header>
+        <hr class="cabeca">
 
+        <!-- Backgound Propraganda -->
+    <div class="bg-propaganda">
+        <h1>"Propaganda 1333 x 322 px"</h1>
+        <img src="https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:low,w_1220/v1/banner/2023_08_09_12_17_57_3/68b723dd-e370-4da2-a7ac-3e37b4c94779-billboard-2440x750-23c12-bemvindo-site-desk.jpg" alt="Propaganda" class="bg-propaganda">
+        
+    </div>
+
+    <!-- Texto da propaganda + botão -->
     <div class="container-title">
         <div class="title">
             <h1>oBoticário</h1>
         </div>
-        <p>Use cupom para ter 10% OFF nas compras pelo site.</p>
+        <p id="tCupom">Use cupom para ter 10% OFF nas compras pelo site.</p>
         <button>Aproveite!</button>
+        </div>
     </div>
-
+        <hr class="propa">
 </div>
 
-    <h2>PERFUMES</h2>
+    <!-- Fim da Parte de Cima -->
 
-    <figure class="foto-legenda">
-        <img src="https://www.lojaseraphina.com.br/cdn/shop/products/a9a363e69ee07b5ffb277b71d1de8e1f_400x.jpg?v=1692033578" alt="Perfume The Blend - Masculino">
-        <figcaption>
-            <h3>The Blend</h3>
-            <p>Cardamom Eau de Parfum 100ml</p>
-            <h4>R$ 299,90</h4>
-            <p>Uma fragrância sofisticada, Amadeirada Especiada, que traz o contraste perfeito entre calor e frescor!</p>
-        </figcaption>
-    </figure>
+    <!-- Conteúdo -->
+<div id="container-linha1">
+        <h1 id="perfumes">PERFUMES</h1>
+    <div id="imagens-perfume">
+        <figure class="foto-legenda">
+            <img src="_imagens/masc-1.jpg" alt="Perfume The Blend - Masculino" class="perfumes-p1">
+            <figcaption class="legenda-perfume">
+                <h3>The Blend</h3>
+                <p>Cardamom Eau de Parfum 100ml</p>
+                <h4>R$ 299,90</h4>
+                <p>Uma fragrância sofisticada, Amadeirada Especiada, que traz o contraste perfeito entre calor e frescor!</p>
+            </figcaption>
+        </figure>
 
+        <figure class="foto-legenda">
+            <img src="_imagens/masc-1.jpg" alt="Perfume The Blend - Masculino" class="perfumes-p1">
+            <figcaption class="legenda-perfume">
+                <h3>The Blend</h3>
+                <p>Cardamom Eau de Parfum 100ml</p>
+                <h4>R$ 299,90</h4>
+                <p>Uma fragrância sofisticada, Amadeirada Especiada, que traz o contraste perfeito entre calor e frescor!</p>
+            </figcaption>
+        </figure>
 
-    [FOTO2]
-    <h3>Malbec</h3>
-    <p>Desodorante Colônia 100ml</p>
-    <h4>PREÇO</h4>
-    <p>Descrição</p>
+        <figure class="foto-legenda">
+            <img src="_imagens/masc-1.jpg" alt="Perfume The Blend - Masculino" class="perfumes-p1">
+            <figcaption class="legenda-perfume">
+                <h3>The Blend</h3>
+                <p>Cardamom Eau de Parfum 100ml</p>
+                <h4>R$ 299,90</h4>
+                <p>Uma fragrância sofisticada, Amadeirada Especiada, que traz o contraste perfeito entre calor e frescor!</p>
+            </figcaption>
+        </figure>
 
-    [FOTO3]
-    <h3>Malbec</h3>
-    <p>Desodorante Colônia 100ml</p>
-    <h4>PREÇO</h4>
-    <p>Descrição</p>
+        <figure class="foto-legenda">
+            <img src="_imagens/masc-1.jpg" alt="Perfume The Blend - Masculino" class="perfumes-p1">
+            <figcaption class="legenda-perfume">
+                <h3>The Blend</h3>
+                <p>Cardamom Eau de Parfum 100ml</p>
+                <h4>R$ 299,90</h4>
+                <p>Uma fragrância sofisticada, Amadeirada Especiada, que traz o contraste perfeito entre calor e frescor!</p>
+            </figcaption>
+        </figure>
 
-    [FOTO4]
-    <h3>Malbec</h3>
-    <p>Desodorante Colônia 100ml</p>
-    <h4>PREÇO</h4>
-    <p>Descrição</p>
+        <figure class="foto-legenda">
+            <img src="_imagens/masc-1.jpg" alt="Perfume The Blend - Masculino" class="perfumes-p1">
+            <figcaption class="legenda-perfume">
+                <h3>The Blend</h3>
+                <p>Cardamom Eau de Parfum 100ml</p>
+                <h4>R$ 299,90</h4>
+                <p>Uma fragrância sofisticada, Amadeirada Especiada, que traz o contraste perfeito entre calor e frescor!</p>
+            </figcaption>
+        </figure>
+    </div>
+</div>
 
-    [FOTO5]
-    <h3>Malbec</h3>
-    <p>Desodorante Colônia 100ml</p>
-    <h4>PREÇO</h4>
-    <p>Descrição</p>
 
 
     <header>
