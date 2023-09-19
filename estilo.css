@@ -4,8 +4,9 @@
     box-sizing: border-box;
     font-family: 'Lato';
     border: none;
-}
+} /* "*" - Configuração para todos os textos da página */ 
 
+/* Barra de Rolagem */
 html::-webkit-scrollbar{
     width: 1rem;
 }
@@ -17,7 +18,7 @@ html::-webkit-scrollbar-track{
 html::-webkit-scrollbar-thumb{
     background-color: #00A470;
     border-radius: 1rem;
-}
+} /* Barra de Rolagem - Fim */
 
 #interface {
     background-color: rgba(0,0,0,.2);
@@ -26,66 +27,121 @@ html::-webkit-scrollbar-thumb{
     background-size: cover;
     width: 100%;
     height: 400px;
-}
+} /* DIV da página inteira */
 
 body {
     background-color: #dddddd;
+    height: 100vh;
 }
 
-header {
+header#cabecalho {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
     padding-top: 1.5rem;
     align-items: center;
-}
+} /* Cabeçalho -> Menu + Logo*/
 
 ul {
-    list-style: none;
-    display: flex;
-    gap: 5rem;
+    list-style: none; /* Remove as bolinhas da lista */
+    display: flex; /* Deixa os itens em linha horizontal */
+    gap: 5rem; /* Separa os itens */
 }
 
 ul li{
-    list-style: none;
+    list-style: none; /* Remove a estilização dos links */
 }
 
 ul li a{
-    text-decoration: none;
+    text-decoration: none; /* Remove a estilização de cada palavra do Menu */
     color: #fff;
     transition: 0.3s;
     font-size: 1.1rem;
-    font-weight: 600;
-    text-transform: uppercase;
-}
+    font-weight: 600; /* Quanto de negrito vai ter a palavra */
+    text-transform: uppercase; /* As palavras ficam em letra maiúscula */
+} /* Estiliza todos os textos que estiverem dentro da tag <a></a> */
 
 .container-icon {
+    display: flex;
     margin-right: 5rem;
-}
+    gap: 1rem;
+} /* DIV que abrange os icones "Pesquisa" e "Carrinho de Compras" */
+
+/* Configuração da barra de pesquisa */
+
+::-webkit-input-placeholder {
+    color: #0a1b2d;
+} /* Mudar a cor da palavra "Pesquisar" dentro da barra */
+
+.search-box {
+    position: relative;
+    left: 0%;
+    background: #00A470;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} /* Barra de Pesquisa + icone */
+
+.search-txt { 
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: white;
+    font-size: 14px;
+    line-height: 40px;
+    width: 0;
+    transition: .5s;
+    font-family: 'Lato';
+} /* Estilização do texto da barra de pesquisa */
+
+.search-botton {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #00A470;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} /* Estilização ao redor do texto da barra de pesquisa */
+
+.search-box:hover > .search-txt {
+    width: 200px;
+    padding: 0 6px; /* O primeiro valor é vertical e o segundo horiozntal */
+} /* Quando passar o mouse em cima do search-box, o search-txt será alterado para o estilo definido aqui */
+
+
+
+.container-icon span {
+    gap: 3rem;
+} /* Espaçamento entre os icones "Pesquisa" e "Carrinho de Compra" */
 
 .icone ion-icon {
     color: #fff;
     font-size: 2rem;
     cursor: pointer;
-}
+} /* Estilizar os icones(mudar cor, tamanho...)*/
 
 ul li a:hover {
     
     text-transform: uppercase;
     color: #00A470;
     border-bottom: solid 1px;
-}
+} /* Efeito nas palavras do Menu */
 
 hr{
     border-bottom: solid 0.1px;
     color: #00A470;
     margin-top: 15px;
-}
+} /* Linha horizontal que delimita a área do Menu*/
 
+/* DIV que cria os textos e o botão da imagem que ficam na logo*/
 .container-title {
     margin-left: 5rem;
     margin-top: 8rem;
-
 }
 
 .container-title h1 {
@@ -108,9 +164,11 @@ hr{
     padding: 10px 15px;
     cursor: pointer;
     border-radius: 5px;
-}
+} /* Estilizando o botão da logo */
 
 .container-title button:hover {
    letter-spacing: 1px;
    transition: 0.3s all;
-}
+}  
+/* Fim da DIV dos textos e botão na logo */
+
