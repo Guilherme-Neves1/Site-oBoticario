@@ -6,6 +6,12 @@
     border: none;
 } /* "*" - Configuração para todos os textos da página */ 
 
+@media screen and (max-width: 1200px) {
+body {
+    width: 100%;
+    }
+}
+
 /* Barra de Rolagem */
 html::-webkit-scrollbar{
     width: 1rem;
