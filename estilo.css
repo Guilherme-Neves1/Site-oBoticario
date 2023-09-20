@@ -496,9 +496,12 @@ span.blog:hover {
     width: 50px;
     height: 50px;
     cursor: pointer;
-    background-color: white;
+    border-radius: 50%;
+    transition: 0.5s;
 }
 
 .left-next img:hover {
-   color: white;
+   background-color: rgba(95, 20, 237,0.8);
+   box-shadow: 0px 0px 20px rgb(95, 20, 237);
 }
+
