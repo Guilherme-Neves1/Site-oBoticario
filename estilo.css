@@ -53,6 +53,10 @@ header#cabecalho {
     border-radius: 360px;
 }
 
+.logo {
+    cursor: pointer;
+}
+
 div.background-cima {
     background-color: rgb(95, 20, 237);
     position: relative;
@@ -218,17 +222,10 @@ hr.propa{
 } /* Estilizando o botão da logo */
 
 .container-title button:hover {
-   letter-spacing: 0px;
-   color: rgb(95, 20, 237);
-   box-shadow: 2px 2px 5px rgb(95, 20, 237);
+    letter-spacing: 0px;
+    color: rgb(95, 20, 237);
+    box-shadow: 2px 2px 5px rgb(95, 20, 237);
 }  
-
-p.aproveite {
-    font-family: 'Lato';
-    font-weight: 700;
-    font-size: 25px;
-    text-shadow: none;
-}
 /* Fim da DIV dos textos e botão na propaganda */
 
 /* Conteúdo da Página*/
@@ -316,6 +313,7 @@ figcaption.legenda-perfume {
 }
 
 div#imagens-perfume {
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -324,7 +322,6 @@ div#imagens-perfume {
 img.perfumes-p1 {
     margin: 0px;
     padding: 0;
-    position: relative;
     width: 100%;
     height: 100%;
     border-bottom: 0.1px solid rgba(0,0,0,.2);
@@ -353,7 +350,6 @@ div.pagamento {
     padding-top: 20px;
     width: 300px;
     height: 130px;
-    cursor: pointer;
 }
 
 div.pagamento h1 {
@@ -367,6 +363,7 @@ div.pagamento h1 {
 div.pagamento img{
     margin-top: 15px;
     width: 100%;
+    cursor: pointer;
 }
 
 div.seguranca {
@@ -374,7 +371,6 @@ div.seguranca {
     padding-top: 20px;
     width: 300px;
     height: 130px;
-    cursor: pointer;
 }
 
 div.seguranca h1{
@@ -388,6 +384,7 @@ div.seguranca h1{
 div.seguranca img{
     margin-top: 15px;
     width: 100%;
+    cursor: pointer;
 }
 
 div.loja {
@@ -395,7 +392,6 @@ div.loja {
     padding-top: 20px;
     width: 300px;
     height: 130px;
-    cursor: pointer;
 }
 
 div.loja h1{
@@ -403,6 +399,7 @@ div.loja h1{
     text-align: justify;
     font-size: 23px;
     color: black;
+    cursor: pointer;
 }
 
 div.redes {
@@ -420,7 +417,7 @@ div.redes h1{
     color: black
 }
 
-div.redes span{
+.icon-redes {
     display: flex;
     gap: 10px;
     cursor: pointer;
@@ -431,10 +428,20 @@ div.redes span{
    height: 32px;
 }
 
+span.facebook {
+    height: 32px;
+    width: 32px;
+}
+
 span.facebook:hover {
     transition: 0.2s;
     box-shadow: 0px 0px 5px black;
     border-radius: 360px;
+}
+
+span.insta {
+    height: 32px;
+    width: 32px;
 }
 
 span.insta:hover {
@@ -443,16 +450,31 @@ span.insta:hover {
     border-radius: 360px;
 }
 
+span.twitter {
+    height: 32px;
+    width: 32px;
+}
+
 span.twitter:hover {
     transition: 0.2s;
     box-shadow: 0px 0px 5px black;
     border-radius: 360px;
 }
 
+span.youtube {
+    height: 32px;
+    width: 32px;
+}
+
 span.youtube:hover {
     transition: 0.2s;
     box-shadow: 0px 0px 5px black;
     border-radius: 360px;
+}
+
+span.blog {
+    height: 32px;
+    width: 32px;
 }
 
 span.blog:hover {
@@ -462,4 +484,21 @@ span.blog:hover {
     width: 70px;
 }
 
+.left-next ion-icon {
+    position: absolute;
+    background-color: white;
+}
 
+.left-next img {
+    position: relative;
+    margin-left: 1525px;
+    top: -250px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.left-next img:hover {
+   color: white;
+}
