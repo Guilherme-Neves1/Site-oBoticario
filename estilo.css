@@ -411,13 +411,13 @@ div.pagamento h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 35px;
+    font-size: 40px;
     color: black
 }
 
 div.pagamento img{
-    margin-top: 15px;
-    width: 100%;
+    margin-top: 10px;
+    width: 80%;
     cursor: pointer;
 }
 
