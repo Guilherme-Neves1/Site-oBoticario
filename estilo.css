@@ -179,6 +179,10 @@ hr.propa{
     transition: .5s;
 } /* Estilizar os icones(mudar cor, tamanho...)*/
 
+#cIcone ion-icon {
+    padding-top: 5px;
+}
+
 #cIcone ion-icon:hover {
     color: rgb(33, 200, 206);
 } /* Estilizar os icones(mudar cor, tamanho...)*/
@@ -187,7 +191,7 @@ hr.propa{
     color: rgb(95, 20, 237);
 }
 
-/* DIV que cria os textos e o botão da imagem que ficam na propaganda */
+/*--------------------------NOME + BOTÃO NA CAPA ---------------------------------------------------*/
 
 .bg-propaganda {
     padding: 0;
