@@ -273,50 +273,56 @@ hr.propa{
 }
 
 #perfumes {
+    /* BACKGROUND */
     position: relative;
+    background-color: rgb(95, 20, 237);
+    border-radius: 10px;
+    width: 430px;
+    height: 50px;
     margin-top: 40px;
     margin-bottom: 30px;
-    padding: 10px;
+    padding-top: 5px;
+
+    /* TEXTO */
     font-size: 35px;
-    font-family: 'Gayathri', sans-serif;
     font-weight: 200;
-    background-color: rgb(95, 20, 237);
-    border-radius: 360px;
-    width: 300px;
-    height: 50px;
-    color: #fff;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255,1);
     cursor: pointer;
     transition: 0.3s;
 }
 
 #perfumes:hover {
-    width: 310px;
-    font-size: 34px;
-    letter-spacing: 0px;
+    width: 435px;
+    font-size: 35px;
+    letter-spacing: 0.1px;
     box-shadow: 0px 0px 10px rgb(95, 20, 237);
 }
 
 #perfumesdois {
+    /* BACKGROUND */
     position: relative;
+    background-color: rgb(95, 20, 237);
+    border-radius: 10px;
+    width: 480px;
+    height: 50px;
     margin-top: 40px;
     margin-bottom: 30px;
-    padding: 10px;
+    padding-top: 5px;
+
+    /* TEXTO */
     font-size: 35px;
-    font-family: 'Gayathri', sans-serif;
-    font-weight: 200;
-    background-color: rgb(95, 20, 237);
-    border-radius: 360px;
-    width: 520px;
-    height: 50px;
+    font-weight: 100;
+    font-family: sans-serif;
     color: #fff;
     cursor: pointer;
     transition: 0.3s;
 }
 
 #perfumesdois:hover {
-    width: 530px;
-    font-size: 34px;
-    letter-spacing: 0px;
+    width: 485px;
+    font-size: 35px;
+    letter-spacing: 0.1px;
     box-shadow: 0px 0px 10px rgb(95, 20, 237);
 }
 
