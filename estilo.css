@@ -393,11 +393,7 @@ div.rodape {
     margin-top: 30px;
 }
 rItens{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 80px;
-    font-size: 30px;
+    font-size: 20px;
 }
 header#rItens {
     display: flex;
