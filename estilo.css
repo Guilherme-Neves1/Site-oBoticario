@@ -277,7 +277,7 @@ hr.propa{
     margin-top: 40px;
     margin-bottom: 30px;
     padding: 10px;
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Gayathri', sans-serif;
     font-weight: 200;
     background-color: rgb(95, 20, 237);
@@ -294,9 +294,33 @@ hr.propa{
     font-size: 34px;
     letter-spacing: 0px;
     box-shadow: 0px 0px 10px rgb(95, 20, 237);
-} /* Efeito "PERFUMES"*/
+}
 
-/* Configuração de imagem, preço e legenda dos perfumes */
+#perfumesdois {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 35px;
+    font-family: 'Gayathri', sans-serif;
+    font-weight: 200;
+    background-color: rgb(95, 20, 237);
+    border-radius: 360px;
+    width: 520px;
+    height: 50px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#perfumesdois:hover {
+    width: 530px;
+    font-size: 34px;
+    letter-spacing: 0px;
+    box-shadow: 0px 0px 10px rgb(95, 20, 237);
+}
+
+/*------------------------ DIV DE CADA PERFUME -------------------------------------------------*/
 figure.foto-legenda {
     display: block;
     text-align: justify;
