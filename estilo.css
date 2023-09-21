@@ -445,15 +445,15 @@ div.seguranca img{
 
 div.loja {
     margin: 0;
-    padding-top: 10px;
-    width: 60px;
+    padding-top: 20px;
+    width: 100px;
     height: 140px;
 }
 
 div.loja h1{
     display: flex;
     text-align: justify;
-    font-size: 10px;
+    font-size: 15px;
     color: black;
 }
 
