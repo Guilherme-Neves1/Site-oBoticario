@@ -247,7 +247,6 @@ hr.propa{
     justify-content: center;
     text-align: center;
     align-items: center;
-    background: 100px
 }
 
 #perfumes {
@@ -454,7 +453,7 @@ div.loja {
 div.loja h1{
     display: flex;
     text-align: justify;
-    font-size: 5px;
+    font-size: 15px;
     color: black;
 }
 
