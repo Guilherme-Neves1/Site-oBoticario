@@ -446,14 +446,14 @@ div.seguranca img{
 div.loja {
     margin: 0;
     padding-top: 10px;
-    width: 70px;
-    height: 50px;
+    width: 50px;
+    height: 130px;
 }
 
 div.loja h1{
     display: flex;
     text-align: justify;
-    font-size: 15px;
+    font-size: 10px;
     color: black;
 }
 
