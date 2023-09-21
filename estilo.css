@@ -247,6 +247,7 @@ hr.propa{
     justify-content: center;
     text-align: center;
     align-items: center;
+    width: 100px
 }
 
 #perfumes {
@@ -254,7 +255,7 @@ hr.propa{
     margin-top: 40px;
     margin-bottom: 30px;
     padding: 10px;
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Gayathri', sans-serif;
     font-weight: 200;
     background-color: rgb(95, 20, 237);
