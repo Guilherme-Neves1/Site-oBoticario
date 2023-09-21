@@ -408,6 +408,7 @@ img.perfumes-p1 {
     border-bottom: 0.1px solid rgba(0,0,0,.2);
 } /* Fim das configurações imagem, preço e legenda dos perfumes */
 
+/*----------------------------- SETA PARA A DIREITA --------------------------------------------------*/
 .next {
     display: flex;
     align-items: center;
@@ -418,7 +419,6 @@ img.perfumes-p1 {
 }
 
 .left-next img {
-
     width: 50px;
     height: 50px;
     cursor: pointer;
@@ -431,7 +431,7 @@ img.perfumes-p1 {
    box-shadow: 0px 0px 20px rgb(95, 20, 237);
 }
 
-/*------------------ Rodapé ---------------------------------------------------------------------------------- */
+/*----------------------------- RODAPÉ ------------------------------------------------------------ */
 div.rodape {
     border-top: 2px solid rgb(95, 20, 237);
     width: 100%;
@@ -584,4 +584,28 @@ span.blog:hover {
     box-shadow: 0px 0px 5px black;
     border-radius: 360px;
     width: 70px;
+}
+
+/*-------------------------- CHATBOT --------------------------------------------------------------*/
+.chatbot {
+    cursor: pointer;
+    position: fixed;
+    bottom: 1px;
+    right: 1px;
+    z-index: 9999;
+
+}
+
+.chatbot img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.chatbot img:hover {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(95, 20, 237,0.8);
+    box-shadow: 0px 0px 5px rgb(95, 20, 237);
 }
