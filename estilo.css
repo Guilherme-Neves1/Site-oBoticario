@@ -398,6 +398,7 @@ header#rItens {
     align-items: center;
     justify-content: space-between;
     gap: 80px;
+    font-size: 30px;
 }
 
 div.pagamento {
