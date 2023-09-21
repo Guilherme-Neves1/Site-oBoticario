@@ -332,7 +332,7 @@ figure.foto-legenda {
 }
 
 figure.foto-legenda:hover {
-   box-shadow: 0px 0px 10px rgb(33, 200, 206);
+    box-shadow: 0px 0px 10px rgb(33, 200, 206);
 } /* Efeito nos cards dos produtos */
 
 .compre {
@@ -349,18 +349,25 @@ figure.foto-legenda:hover {
     transition: .5s;
 }
 
-.compre h1{
+.compre h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
     font-size: 30px;
+    transition: 0.5s;
+}
+
+.compre h1:hover {
+    color: rgb(33, 200, 206);
+    font-size: 35px;
 }
 
 figure.foto-legenda:hover > .compre {
     opacity: 1;
     bottom: 0px;
+    box-shadow: 0px 0px 10px rgba(95, 20, 237,1);
 } /* Efeito no COMPRE JÁ! */
 
 figcaption.legenda-perfume {
