@@ -288,6 +288,34 @@ figure.foto-legenda:hover {
    box-shadow: 0px 0px 10px rgb(33, 200, 206);
 } /* Efeito nos cards dos produtos */
 
+.compre {
+    opacity: 0;
+    display: flex;
+    position: absolute;
+    background-color: rgba(95, 20, 237,1);
+    width: 248px;
+    justify-content: center;
+    align-items: center;
+    bottom: -50px;
+    padding-bottom: 20px;
+    margin-right: 1px;
+    transition: .5s;
+}
+
+.compre h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+figure.foto-legenda:hover > .compre {
+    opacity: 1;
+    bottom: 0px;
+} /* Efeito no COMPRE JÁ! */
+
 figcaption.legenda-perfume {
     display: block;
     box-sizing: content-box;
@@ -333,7 +361,28 @@ img.perfumes-p1 {
     border-bottom: 0.1px solid rgba(0,0,0,.2);
 } /* Fim das configurações imagem, preço e legenda dos perfumes */
 
-    /* Rodapé */
+.left-next ion-icon {
+    position: absolute;
+    background-color: white;
+}
+
+.left-next img {
+    position: relative;
+    margin-left: 1525px;
+    top: -250px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.left-next img:hover {
+   background-color: rgba(95, 20, 237,0.8);
+   box-shadow: 0px 0px 20px rgb(95, 20, 237);
+}
+
+/*------------------ Rodapé ---------------------------------------------------------------------------------- */
 div.rodape {
     border-top: 2px solid rgb(95, 20, 237);
     width: 100%;
@@ -488,25 +537,3 @@ span.blog:hover {
     border-radius: 360px;
     width: 70px;
 }
-
-.left-next ion-icon {
-    position: absolute;
-    background-color: white;
-}
-
-.left-next img {
-    position: relative;
-    margin-left: 1525px;
-    top: -250px;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    border-radius: 50%;
-    transition: 0.5s;
-}
-
-.left-next img:hover {
-   background-color: rgba(95, 20, 237,0.8);
-   box-shadow: 0px 0px 20px rgb(95, 20, 237);
-}
-
