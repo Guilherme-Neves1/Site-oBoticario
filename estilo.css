@@ -1,18 +1,20 @@
+/*------------- "*" -> Configura todos os textos da página --------------------------------------------*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato';
     border: none;
-} /* "*" - Configuração para todos os textos da página */ 
+} 
 
+/*------------- TAMANHO DA PÁG NO DISPOSITIVO DE 1200PX ------------------------------------------------*/
 @media screen and (max-width: 1200px) {
 body {
     width: 100%;
     }
 }
 
-/* Barra de Rolagem */
+/*----------------------- BARRA DE ROLAGEM ------------------------------------------------------------*/
 html::-webkit-scrollbar{
     width: 1rem;
 }
@@ -24,7 +26,8 @@ html::-webkit-scrollbar-track{
 html::-webkit-scrollbar-thumb{
     background-color: rgb(95, 20, 237,0.7);
     border-radius: 1rem;
-} /* Barra de Rolagem - Fim */
+}
+/*-----------------------------------------------------------------------------------------------------*/
 
 #interface {
     background-color: rgba(0,0,0,.2);
@@ -34,20 +37,21 @@ html::-webkit-scrollbar-thumb{
     width: 100%;
     height: 400px;
     position: relative;
-} /* DIV da página inteira */
+}
 
 body {
     background-color: #fff;
     height: 100vh;
 }
 
+/*-------------------------- CABEÇALHO ----------------------------------------------------------------*/
 header#cabecalho {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
     padding-top: 1.5rem;
     align-items: center;
-} /* Cabeçalho -> Menu + Logo*/
+}
 
 .logo #oLogo {
     position: absolute;
@@ -57,6 +61,11 @@ header#cabecalho {
     height: 150px;
     border: 5px solid rgb(95, 20, 237);
     border-radius: 360px;
+    transition: 0.5s;
+}
+
+.logo #oLogo:hover {
+    box-shadow: 0px 4px 10px rgb(95, 20, 237);
 }
 
 .logo {
