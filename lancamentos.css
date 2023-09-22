@@ -370,7 +370,7 @@ figure.foto-legenda:hover {
 }
 
 .compre h1:hover {
-    color: rgb(33, 200, 206);
+    color: rgb(223, 20, 241);
     font-size: 35px;
 }
 
@@ -378,7 +378,7 @@ figure.foto-legenda:hover {
     opacity: 1;
     display: flex;
     position: absolute;
-    background-color: rgba(95, 20, 237,1);
+    background-color: rgb(223, 20, 241);
     width: 248px;
     justify-content: center;
     align-items: center;
