@@ -228,6 +228,7 @@ hr.propa{
   background-color: rgb(16, 170, 231);
   border-radius: 10px;
   width: 480px;
+      padding-left: 80px;
 }
 
 .title h1:hover {
