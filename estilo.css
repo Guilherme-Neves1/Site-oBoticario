@@ -454,6 +454,7 @@ div.rodape {
     justify-content: space-around;
     margin-top: 30px;
 }
+
 header#rItens {
     display: flex;
     align-items: center;
@@ -464,7 +465,7 @@ header#rItens {
 div.pagamento {
     margin: 0px 0px 0px 0px;
     padding-top: 20px;
-    width: 200px;
+    width: 300px;
     height: 130px;
 }
 
@@ -472,20 +473,20 @@ div.pagamento h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 21.9px;
+    font-size: 20px;
     color: black
 }
 
 div.pagamento img{
-    margin-top: 20px;
-    width: 95%;
+    margin-top: 15px;
+    width: 100%;
     cursor: pointer;
 }
 
 div.seguranca {
     margin: 0;
     padding-top: 20px;
-    width: 200px;
+    width: 300px;
     height: 130px;
 }
 
@@ -493,34 +494,34 @@ div.seguranca h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 25px;
+    font-size: 20px;
     color: black;
 }
 
 div.seguranca img{
-    margin-top: 20px;
-    width: 95%;
+    margin-top: 15px;
+    width: 100%;
     cursor: pointer;
 }
 
 div.loja {
     margin: 0;
     padding-top: 20px;
-    width: 100px;
-    height: 140px;
+    width: 300px;
+    height: 130px;
 }
 
 div.loja h1{
     display: flex;
     text-align: justify;
-    font-size: 15px;
+    font-size: 23px;
     color: black;
 }
 
 div.redes {
     margin: 0;
     padding-top: 20px;
-    width: 200px;
+    width: 300px;
     height: 130px;
 }
 
