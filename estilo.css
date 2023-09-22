@@ -458,7 +458,7 @@ header#rItens {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 50px;
+    gap: 80px;
 }
 
 div.pagamento {
@@ -513,7 +513,7 @@ div.loja {
 div.loja h1{
     display: flex;
     text-align: justify;
-    font-size: 15px;
+    font-size: 22px;
     color: black;
 }
 
@@ -527,7 +527,7 @@ div.redes {
 div.redes h1{
     display: flex;
     text-align: justify;
-    font-size: 25px;
+    font-size: 20px;
     padding-bottom: 10px;
     color: black
 }
@@ -546,6 +546,7 @@ div.redes h1{
 span.facebook {
     height: 32px;
     width: 32px;
+    transition: 0.5s;
 }
 
 span.facebook:hover {
@@ -557,6 +558,7 @@ span.facebook:hover {
 span.insta {
     height: 32px;
     width: 32px;
+    transition: 0.5s;
 }
 
 span.insta:hover {
@@ -568,6 +570,7 @@ span.insta:hover {
 span.twitter {
     height: 32px;
     width: 32px;
+    transition: 0.5s;
 }
 
 span.twitter:hover {
@@ -579,6 +582,7 @@ span.twitter:hover {
 span.youtube {
     height: 32px;
     width: 32px;
+    transition: 0.5s;
 }
 
 span.youtube:hover {
@@ -590,10 +594,11 @@ span.youtube:hover {
 span.blog {
     height: 32px;
     width: 32px;
+    transition: 0.5s;
 }
 
 span.blog:hover {
-    transition: 0.3s;
+    transition: 0.2s;
     box-shadow: 0px 0px 5px black;
     border-radius: 360px;
     width: 70px;
