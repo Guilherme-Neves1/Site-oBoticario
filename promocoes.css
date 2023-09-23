@@ -211,22 +211,30 @@ hr.propa{
 
 .container-title {
     position: absolute;
-    margin: -205px 0px 0px 90px;
+    margin: -215px 0px 0px 82px;
     padding: 0;
+
 }
 
 .container-title h1 {
-  color: rgb(95, 20, 237);
-  font-size: 4.8rem;
-  text-shadow: 2px 2px 2px rgb(95, 20, 237);
-  cursor: pointer;
-  transition: 0.5s;
+    color: rgb(255, 255, 255);
+    font-size: 4.8rem;
+    text-shadow: 2px 2px 2px rgb(95, 20, 237);
+    transition: 0.5s;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    background-color: rgb(151, 32, 63);
+    width: 420px;
+    border-radius: 10px;
+    padding-right: 15px;
+    cursor: pointer;
 }
 
-.title h1:hover {
-    letter-spacing: 0px;
-    text-shadow: 2px 2px 2px rgb(33, 200, 206);
-}  
+.container-title h1:hover {
+    color: rgb(95, 20, 237);
+    background-color: rgb(33, 200, 206);
+    text-shadow: 2px 2px 2px rgb(204, 0, 255);
+}
 
 .container-title p {
     color: #fff;
@@ -304,7 +312,7 @@ hr.propa{
     position: relative;
     background-color: rgb(95, 20, 237);
     border-radius: 10px;
-    width: 480px;
+    width: 445px;
     height: 50px;
     margin-top: 40px;
     margin-bottom: 30px;
@@ -320,7 +328,7 @@ hr.propa{
 }
 
 #perfumesdois:hover {
-    width: 485px;
+    width: 450px;
     font-size: 35px;
     letter-spacing: 0.1px;
     box-shadow: 0px 0px 10px rgb(95, 20, 237);
@@ -366,7 +374,7 @@ figure.foto-legenda:hover {
 }
 
 .compre h1:hover {
-    color: rgb(33, 200, 206);
+    color: rgb(255, 23, 85); 
     font-size: 35px;
 }
 
