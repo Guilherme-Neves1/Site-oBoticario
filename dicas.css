@@ -197,9 +197,10 @@ hr.propa{
     padding: 0;
     margin: 0;
     background-color: rgba(0,0,0,.2);
-    width: 95%;
-    height: 350px;
+    width: 97%;
+    height: 322px;
     color: white;
+    text-align: center;
 }
 
 .bg-propaganda h1 {
