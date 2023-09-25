@@ -191,7 +191,7 @@ hr.propa{
     color: rgb(95, 20, 237);
 }
 
-/*-------------------------- NOME + BOTÃO NA CAPA ---------------------------------------------------*/
+/*--------------------------NOME + BOTÃO NA CAPA ---------------------------------------------------*/
 
 .bg-propaganda {
     padding: 0;
@@ -221,11 +221,17 @@ hr.propa{
   text-shadow: 2px 2px 2px rgb(95, 20, 237);
   cursor: pointer;
   transition: 0.5s;
+  background-color: rgb(16, 170, 231);
+  border-radius: 10px;
+  width: 480px;
+  padding-left: 80px;
 }
 
 .title h1:hover {
+    color: rgb(33, 200, 206);
     letter-spacing: 0px;
-    text-shadow: 2px 2px 2px rgb(33, 200, 206);
+    text-shadow: 2px 2px 2px rgb(204, 0, 255);
+    background-color: rgb(95, 20, 237);
 }  
 
 .container-title p {
@@ -236,10 +242,13 @@ hr.propa{
     font-weight: 100;
     cursor: pointer;
     transition: 0.5s;
+    background-color: rgba(16, 170, 231,0.4);
+    width: 480px;
 }
 
 .container-title p:hover {
     letter-spacing: 0.2px;
+    background-color: rgb(95, 20, 237,0.4);
 }
 
 .container-title button {
@@ -264,6 +273,12 @@ hr.propa{
     background-color: rgba(255, 255, 255, 0.8);
 }
 
+#container-linhadois {
+    margin-top: 55px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
 /*--------------------------- "MAIS VENDIDOS" ----------------------------------------------------*/
 .tPerfumes {
     display: flex;
@@ -277,7 +292,7 @@ hr.propa{
     position: relative;
     background-color: rgb(95, 20, 237);
     border-radius: 10px;
-    width: 430px;
+    width: 450px;
     height: 50px;
     margin-top: 40px;
     margin-bottom: 30px;
@@ -293,7 +308,7 @@ hr.propa{
 }
 
 #perfumes:hover {
-    width: 435px;
+    width: 455px;
     font-size: 35px;
     letter-spacing: 0.1px;
     box-shadow: 0px 0px 10px rgb(95, 20, 237);
@@ -326,11 +341,38 @@ hr.propa{
     box-shadow: 0px 0px 10px rgb(95, 20, 237);
 }
 
+.barra-select {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(0,0,0,.2);
+    height: 80px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.barra-select p{
+    font-weight: 700;
+    font-size: 15px;
+    align-items: center;
+}
+
+.select {
+    display: flex;
+    align-items: center;
+}
+
+select {
+    height: 30px;
+    position: relative;
+}
+
 /*------------------------ DIV DE CADA PERFUME -------------------------------------------------*/
 figure.foto-legenda {
     display: block;
     text-align: justify;
-    width: 400px;
+    width: 250px;
     border: 0.1px solid rgb(33, 200, 206);
     box-shadow: 0px 2px 10px black;
     cursor: pointer;
@@ -443,6 +485,39 @@ img.perfumes-p1 {
    background-color: rgba(95, 20, 237,0.8);
    box-shadow: 0px 0px 20px rgb(95, 20, 237);
 }
+
+.mais-produtos {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255,255,255);
+    margin-top: 40px;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid rgb(95, 20, 237);
+    box-shadow: 1px 1px 5px rgb(95, 20, 237);
+    cursor: pointer;
+}
+
+.mais-produtos:hover {
+    border: 3px solid rgb(95, 20, 180); 
+}
+
+.mais-produtos h1:hover {
+    color: rgb(60, 20, 190);  
+}
+
+.mais-produtos h1 {
+    color: rgb(95, 20, 237);
+    font-size: 15px;  
+    font-weight: 700;  
+    padding: 10px;
+    text-align: center;
+    text-shadow: 0px 0px 1px rgb(95, 20, 237); 
+}
+
 
 /*----------------------------- RODAPÉ ------------------------------------------------------------ */
 div.rodape {
