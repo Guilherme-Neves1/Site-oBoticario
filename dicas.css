@@ -330,7 +330,7 @@ hr.propa{
 figure.foto-legenda {
     display: block;
     text-align: justify;
-    width: 400px;
+    width: 550px;
     border: 0.1px solid rgb(33, 200, 206);
     box-shadow: 0px 2px 10px black;
     cursor: pointer;
@@ -340,35 +340,6 @@ figure.foto-legenda {
 figure.foto-legenda:hover {
     box-shadow: 0px 0px 10px rgb(33, 200, 206);
 } /* Efeito nos cards dos produtos */
-
-.compre {
-    opacity: 0;
-    display: flex;
-    position: absolute;
-    background-color: rgba(95, 20, 237,1);
-    width: 248px;
-    justify-content: center;
-    align-items: center;
-    bottom: -50px;
-    padding-bottom: 20px;
-    margin-right: 1px;
-    transition: .5s;
-}
-
-.compre h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    transition: 0.5s;
-}
-
-.compre h1:hover {
-    color: rgb(33, 200, 206);
-    font-size: 35px;
-}
 
 figure.foto-legenda:hover > .compre {
     opacity: 1;
