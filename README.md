@@ -1,7 +1,7 @@
 # Criação de um site para a marca O Boticário.
-### Trabalho para a disciplia de Projetos do curso Análise e Desenvolvimento de Sistemas
+### Trabalho para a disciplia de Projetos do curso Análise e Desenvolvimento de Sistemas - 2º semestre de 2023.
 ---
-[Acesse aqui.](https://guilherme-neves1.github.io/Site-oBoticario/)
+[Acesse o site clicando aqui](https://guilherme-neves1.github.io/Site-oBoticario/)
 ---
 
 ![Página-1](https://github.com/Guilherme-Neves1/Site-oBoticario/blob/main/_imagens/Print01.png?raw=true)
